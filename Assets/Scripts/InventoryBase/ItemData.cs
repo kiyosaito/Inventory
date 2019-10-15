@@ -63,8 +63,8 @@ public static class ItemData
                 _amount = 1;
                 _value = 30;
                 _type = ItemType.Potion;
-                _icon = "Poition/100";
-                _mesh = "Poition/100";
+                _icon = "Potion/100";
+                _mesh = "Potion/100";
                 _damage = 0;
                 _armour = 0;
                 _heal = 0;
@@ -75,8 +75,8 @@ public static class ItemData
                 _amount = 1;
                 _value = 30;
                 _type = ItemType.Potion;
-                _icon = "Poition/101";
-                _mesh = "Poition/101";
+                _icon = "Potion/101";
+                _mesh = "Potion/101";
                 _damage = 0;
                 _armour = 0;
                 _heal = 0;
@@ -87,8 +87,8 @@ public static class ItemData
                 _amount = 1;
                 _value = 60;
                 _type = ItemType.Potion;
-                _icon = "Poition/102";
-                _mesh = "Poition/102";
+                _icon = "Potion/102";
+                _mesh = "Potion/102";
                 _damage = 0;
                 _armour = 0;
                 _heal = 30;
