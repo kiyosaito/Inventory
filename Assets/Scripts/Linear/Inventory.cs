@@ -69,6 +69,10 @@ namespace Linear
                     return;
                 }
             }
+            if (Input.GetKeyDown(KeyCode.P))
+            {
+                inv[5].Amount += 3;
+            }
 
         }
         private void OnGUI()
@@ -91,6 +95,7 @@ namespace Linear
                     GUI.Box(new Rect(4.25f * scr.x, 4.75f * scr.y, scr.x, 0.25f * scr.y), "Armour: " + selectedItem.Armour); // Armour
                     GUI.Box(new Rect(4.25f * scr.x, 5 * scr.y, scr.x, 0.25f * scr.y), "Heal: " + selectedItem.Heal); // Heal
                     GUI.skin = null;
+                    ItemUse();
                 }
                 else
                 {
@@ -139,9 +144,9 @@ namespace Linear
                 GUI.EndScrollView();
             }
         }
-        void ItemUse(ItemType type)
+        void ItemUse()
         {
-            switch (type)
+            switch (selectedItem.Type)
             {
                 case ItemType.Ingredient:
                     break;
@@ -177,6 +182,16 @@ namespace Linear
                 droppedItem.name = selectedItem.Name;
                 droppedItem.AddComponent<Rigidbody>().useGravity = true;
                 //reduce or delete
+                if (selectedItem.Amount>1)
+                {
+                    selectedItem.Amount--;
+                }
+                else
+                {
+                    inv.Remove(selectedItem);
+                    selectedItem = null;
+                }
+                return;
             }
         }
     }
