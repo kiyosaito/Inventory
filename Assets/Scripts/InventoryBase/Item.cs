@@ -10,7 +10,7 @@ public class Item
     private int _value;
     private ItemType _type;
     private GameObject _mesh;
-    private Texture2D _icon;
+    private Sprite _icon;
 
     private int _damage;
     private int _armour;
@@ -45,7 +45,7 @@ public class Item
         get { return _mesh; }
         set { _mesh = value; }
     }
-    public Texture2D Icon {
+    public Sprite Icon {
         get { return _icon; }
         set { _icon = value; }
     }

@@ -384,7 +384,7 @@ public static class ItemData
             Value = _value,
             Type = _type,
             ObjectMesh = Resources.Load("Mesh/" + _mesh) as GameObject,
-            Icon = Resources.Load("Icons/" + _icon) as Texture2D,
+            Icon = Resources.Load("Icons/" + _icon) as Sprite,
             Damage = _damage,
             Armour = _armour,
             Heal = _heal
