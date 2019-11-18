@@ -7,8 +7,8 @@ public class Item : ScriptableObject
 {
     public string _name;
     public int _iD;
+    public GameObject _IconPrefab;
     public GameObject _prefab;
-    public Texture2D _icon;
     public ItemType _type;
     public int _amount;
     public int _value;

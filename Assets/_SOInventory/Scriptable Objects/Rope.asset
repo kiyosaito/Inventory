@@ -14,8 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _name: Rope
   _iD: 800
-  _prefab: {fileID: 0}
-  _icon: {fileID: 2800000, guid: c902b8e7126a5e44086fe6bb2a05859b, type: 3}
+  _IconPrefab: {fileID: 1729255032490546496, guid: e8caf52b3438fcc4d86537520ba5eb35,
+    type: 3}
+  _prefab: {fileID: 4483131234998545052, guid: 0026fbc17fd1cf7489431f9d36393c40, type: 3}
   _type: 8
   _amount: 3
   _value: 5

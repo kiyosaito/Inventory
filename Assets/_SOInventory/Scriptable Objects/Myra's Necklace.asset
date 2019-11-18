@@ -14,8 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _name: Myra's NeckLace
   _iD: 702
-  _prefab: {fileID: 0}
-  _icon: {fileID: 2800000, guid: c12d5c6cbe55dfe41b5712b9badfc5d3, type: 3}
+  _IconPrefab: {fileID: 1875302119577886098, guid: c21d3e8f5eb8da64ea61cfda487620c8,
+    type: 3}
+  _prefab: {fileID: 4483131234998545052, guid: 01a520f269960bc49bc7018894597214, type: 3}
   _type: 7
   _amount: 1
   _value: 300
