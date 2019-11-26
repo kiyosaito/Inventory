@@ -1782,6 +1782,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 523709c444fdf014fb13c0cf86157526, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  inventoryPrefab: {fileID: 0}
   inventory: {fileID: 11400000, guid: bbcb22c1c8cde6544b62d2e8ef9ac509, type: 2}
   xStart: -360
   yStart: 100
@@ -9588,7 +9589,7 @@ PrefabInstance:
     - target: {fileID: 670974551449001446, guid: cf24f24e78a213d4badd1d90e5dc88a1,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: 1.986
       objectReference: {fileID: 0}
     - target: {fileID: 670974551449001446, guid: cf24f24e78a213d4badd1d90e5dc88a1,
         type: 3}
